@@ -1,0 +1,11 @@
+.idea/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+se-metadata.json
+artifacts/gifs/*.gif
+artifacts/reports/*.xml
+artifacts/recording.log
+artifacts/screenshots/
+artifacts/videos/
