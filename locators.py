@@ -5,9 +5,7 @@ Os valores seguem o formato ``(By, seletor)`` aceito por ``find_element`` e
 pela aplicação; por isso, os seletores correspondentes são delimitados pelo
 modal que os contém.
 """
-
 from selenium.webdriver.common.by import By
-
 
 class UrbanRoutesLocators:
     """UI selectors grouped by application flow."""
@@ -73,7 +71,6 @@ class UrbanRoutesLocators:
     ORDER_MODAL = (By.CSS_SELECTOR, ".order")
     ORDER_DETAILS = (By.CSS_SELECTOR, ".order-details")
     ORDER_CANCEL = (By.CSS_SELECTOR, ".order button")
-
 
 # Exemplo de uso:
 # wait.until(EC.element_to_be_clickable(UrbanRoutesLocators.ADD_CARD_OPTION)).click()
